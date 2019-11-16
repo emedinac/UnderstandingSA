@@ -2,8 +2,8 @@
 Understanding style augmentation and its influence in image classification
 
 - We used different models Xception InceptionV3, WideResNet and InceptionV4 as classifier networks.
-- we based on the work [Learning Linear Transformations for Fast Image and Video Style Transfer] using the trained weights "r41" from the original work. We created our methodology based on this model, but changing internal layers and math equations (as detailed on paper) to all these train models.
-- We trained the styling net using the "r41" and saving the embedded features in the same manner as the original style tranfer paper (however, pretrained methods are available for the stylizing network).
+- We trained our styling nets using the pre-trained weights "r41" downloaded from [Learning Linear Transformations for Fast Image and Video Style Transfer] saving the embedded features in the same manner as the original style tranfer paper (however, pretrained methods are available for the stylizing network). To do that, I we changed internal layers and math equations (as detailed on paper) to all these train models.
+
 
 ## Usage
 All parameters are detailed in `main.py` and `config_classification.py`, just download the [wikiArt (training) DB](https://www.kaggle.com/c/painter-by-numbers/data) and set it on a folder called Database, the pretrained The model for stylization from [original authors](https://drive.google.com/file/d/1H9T5rfXGlGCUh04DGkpkMFbVnmscJAbs/view) or you can follow the author's procedure to get the model, thereafter move the model into models folder. Finally, run the training code.:
