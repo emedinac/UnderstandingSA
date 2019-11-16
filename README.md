@@ -2,7 +2,7 @@
 Understanding style augmentation and its influence in image classification
 
 - We used different models Xception InceptionV3, WideResNet and InceptionV4 as classifier networks.
-- We used weights "r41" from the original work [Learning Linear Transformations for Fast Image and Video Style Transfer]. We created our methodology based on this model, but changing internal layers and math equations (as detailed on paper) to all these train models.
+- we based on the work [Learning Linear Transformations for Fast Image and Video Style Transfer] using the trained weights "r41" from the original work. We created our methodology based on this model, but changing internal layers and math equations (as detailed on paper) to all these train models.
 - We trained the styling net using the "r41" and saving the embedded features in the same manner as the original style tranfer paper (however, pretrained methods are available for the stylizing network).
 
 ## Usage
