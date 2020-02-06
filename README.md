@@ -3,19 +3,19 @@
 ## Some other Qualitative Results.
 This section could be considered as supplementary material. some qualitative results are presented as following:
 
-![Qualitet01](Images/AugmentationComparison.png){:height="50%" width="50%"}
+![Qualitet01](Images/AugmentationComparison.png){:height="25%" width="25%"}
 (a) Traditional Augmentation vs (b) Style Augmentation (plus cutout)
 
-![Qualitet02](Images/AlphaVariation.png){:height="50%" width="50%"}
+![Qualitet02](Images/AlphaVariation.png){:height="25%" width="25%"}
 Style Augmentation using different alpha values
 
-![Qualitet03](Images/All_models_CAM.png){:height="50%" width="50%"}
+![Qualitet03](Images/All_models_CAM.png){:height="25%" width="25%"}
 CAMs over all models. Regions highlighted to represent the learned features correlated to the prediction on one sample using all models (separated in each row) presented using None, Trad, SA and Trad+SA augmentations (separated in each column).
 
-![Qualitet04](Images/WideResNet_CAM.png){:height="50%" width="50%"}
+![Qualitet04](Images/WideResNet_CAM.png){:height="25%" width="25%"}
 CAMs over WideResNet model. CAMs highlighted representative the learned features for the model WideResNet trained using N/A, Trad, SA and Trad+SA tested in one styled image with different alpha.
 
-![Qualitet05](Images/WideResNet_styles_CAM.png){:height="50%" width="50%"}
+![Qualitet05](Images/WideResNet_styles_CAM.png){:height="25%" width="25%"}
 CAMs over WideResNet model using styled inputs. Results of applying the CAM technique to WideResNet using different styles and different values for alpha.
 
 ![Qualitet06](Images/AugmentationEffects.png)
