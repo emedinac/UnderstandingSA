@@ -5,18 +5,23 @@ This section could be considered as supplementary material. some qualitative res
 
 <img src="Images/AugmentationComparison.png" alt="Qualitet01" width="512"/>
 (a) Traditional Augmentation vs (b) Style Augmentation (plus cutout)
+{empty} +
 
 <img src="Images/AlphaVariation.png" alt="Qualitet02" width="512"/>
 Style Augmentation using different alpha values
+{empty} +
 
 <img src="Images/All_models_CAM.png" alt="Qualitet03" width="512"/>
 CAMs over all models. Regions highlighted to represent the learned features correlated to the prediction on one sample using all models (separated in each row) presented using None, Trad, SA and Trad+SA augmentations (separated in each column).
+{empty} +
 
 <img src="Images/WideResNet_CAM.png" alt="Qualitet04" width="512"/>
 CAMs over WideResNet model. CAMs highlighted representative the learned features for the model WideResNet trained using N/A, Trad, SA and Trad+SA tested in one styled image with different alpha.
+{empty} +
 
 <img src="Images/WideResNet_styles_CAM.png" alt="Qualitet05" width="512"/>
 CAMs over WideResNet model using styled inputs. Results of applying the CAM technique to WideResNet using different styles and different values for alpha.
+{empty} +
 
 <img src="Images/AugmentationEffects.png" alt="Qualitet06"/>
 Comparison of all models robustness under augmentation style setting. Accuracy vs style transfer (alpha=0.5) for a subset of 100 samples from the test set.
