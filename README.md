@@ -3,7 +3,7 @@
 ## Some other Qualitative Results.
 This section could be considered as supplementary material. some qualitative results are presented as following:
 
-<img src="https://github.com/emedinac/Understanding-style-augmentation/Images/AugmentationComparison.png" alt="Qualitet01" width="250"/>
+<img src="Images/AugmentationComparison.png" alt="Qualitet01" width="250"/>
 (a) Traditional Augmentation vs (b) Style Augmentation (plus cutout)
 
 ![Qualitet02](Images/AlphaVariation.png)
