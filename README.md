@@ -1,4 +1,26 @@
 # Understanding-style-augmentation
+## **The full code will be released after publication acceptation**
+## Some other Qualitative Results.
+This section could be considered as supplementary material.
+
+![Traditional Augmentation vs Style Augmentation (plus cutout)](Images/AugmentationComparison.png)
+
+![Style Augmentation using different alpha values]("Images/AlphaVariation.png")
+
+![CAMs over all models](Images/All_models_CAM.png)
+Regions highlighted to represent the learned features correlated to the prediction on one sample using all models (separated in each row) presented using None, Trad, SA and Trad+SA augmentations (separated in each column).
+
+![CAMs over WideResNet model](Images/WideResNet_CAM.png)
+CAMs highlighted representative the learned features for the model WideResNet trained using N/A, Trad, SA and Trad+SA tested in one styled image with different alpha.
+
+![CAMs over WideResNet model using styled inputs](Images/WideResNet_styles_CAM.png)
+Results of applying the CAM technique to WideResNet using different styles and different values for alpha.
+
+![Comparison of all models robustness under augmentation style setting](Images/AugmentationEffects.png)
+Accuracy vs style transfer (alpha=0.5) for a subset of 100 samples from the test set.
+
+
+## Code Introduction 
 Understanding style augmentation and its influence in image classification
 
 - We used different models Xception InceptionV3, WideResNet and InceptionV4 as classifier networks.
@@ -51,4 +73,5 @@ Results reported on Xception and InceptionV4 using STL-10 for classfication task
 | WideResNet         |     X     |     X     |   87.83%   |
 
 Weights tuned without pre-training are available in the following: [drive](https://drive.google.com/open?id=1Ig4wKI9yqItb_eBTQUBDvLIl78wDf70T). Some other results and configurations will be available soon!. Due to hardware limitations, WideResNet cannot be tested on images with size of 256x256 pixels.
+
 
