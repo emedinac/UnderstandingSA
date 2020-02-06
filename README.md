@@ -3,21 +3,23 @@
 ## Some other Qualitative Results.
 This section could be considered as supplementary material.
 
-![Traditional Augmentation vs Style Augmentation (plus cutout)](Images/AugmentationComparison.png)
+![Qualitet01](Images/AugmentationComparison.png)
+Traditional Augmentation vs Style Augmentation (plus cutout)
 
-![Style Augmentation using different alpha values]("Images/AlphaVariation.png")
+![Qualitet02](Images/AlphaVariation.png)
+Style Augmentation using different alpha values
 
-![CAMs over all models](Images/All_models_CAM.png)
-Regions highlighted to represent the learned features correlated to the prediction on one sample using all models (separated in each row) presented using None, Trad, SA and Trad+SA augmentations (separated in each column).
+![Qualitet03](Images/All_models_CAM.png)
+CAMs over all models. Regions highlighted to represent the learned features correlated to the prediction on one sample using all models (separated in each row) presented using None, Trad, SA and Trad+SA augmentations (separated in each column).
 
-![CAMs over WideResNet model](Images/WideResNet_CAM.png)
-CAMs highlighted representative the learned features for the model WideResNet trained using N/A, Trad, SA and Trad+SA tested in one styled image with different alpha.
+![Qualitet04](Images/WideResNet_CAM.png)
+CAMs over WideResNet model. CAMs highlighted representative the learned features for the model WideResNet trained using N/A, Trad, SA and Trad+SA tested in one styled image with different alpha.
 
-![CAMs over WideResNet model using styled inputs](Images/WideResNet_styles_CAM.png)
-Results of applying the CAM technique to WideResNet using different styles and different values for alpha.
+![Qualitet05](Images/WideResNet_styles_CAM.png)
+CAMs over WideResNet model using styled inputs. Results of applying the CAM technique to WideResNet using different styles and different values for alpha.
 
-![Comparison of all models robustness under augmentation style setting](Images/AugmentationEffects.png)
-Accuracy vs style transfer (alpha=0.5) for a subset of 100 samples from the test set.
+![Qualitet06](Images/AugmentationEffects.png)
+Comparison of all models robustness under augmentation style setting. Accuracy vs style transfer (alpha=0.5) for a subset of 100 samples from the test set.
 
 
 ## Code Introduction 
