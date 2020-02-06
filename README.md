@@ -1,5 +1,5 @@
 # Understanding-style-augmentation
-## **The full code will be released after publication acceptation**
+**The full code will be released after publication acceptation**
 ## Some other Qualitative Results.
 This section could be considered as supplementary material.
 
