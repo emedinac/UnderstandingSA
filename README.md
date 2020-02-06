@@ -1,10 +1,10 @@
 # Understanding-style-augmentation
-**The full code will be released after publication acceptation**
+** The full code will be released after publication acceptation **
 ## Some other Qualitative Results.
-This section could be considered as supplementary material.
+This section could be considered as supplementary material. some qualitative results are presented as following:
 
 ![Qualitet01](Images/AugmentationComparison.png)
-Traditional Augmentation vs Style Augmentation (plus cutout)
+(a) Traditional Augmentation vs (b) Style Augmentation (plus cutout)
 
 ![Qualitet02](Images/AlphaVariation.png)
 Style Augmentation using different alpha values
